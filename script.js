@@ -20,3 +20,9 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 1000);
 updateCountdown();
+
+// ✅ Confirm Button Click Behavior
+const confirmButton = document.querySelector(".confirm-btn");
+confirmButton.addEventListener("click", () => {
+  alert("To get verified, please contact a NextGenFunding official.");
+});
